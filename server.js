@@ -1,4 +1,6 @@
 var express = require('express');
+//var mysql = require('mysql');
+
 
 var app = express();
 app.get('/', function(req, res){
@@ -18,5 +20,5 @@ app.use(function(req, res){
 })
 
 app.listen(8088, function(){
-    consloe.log('Server is upp and runnign on port 8088');
+    console.log('Server is upp and runnign on port 8088');
 })
